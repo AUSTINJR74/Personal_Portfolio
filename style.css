@@ -293,6 +293,7 @@ span{
 /* skills */
 .heading{
     text-align:center;
+    /* margin: 0 0 0 0; */
     /* margin: -100px 0 0 0; */
 }
 .heading h2{
@@ -341,14 +342,14 @@ span{
 
 .contact{
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(220px,auto));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(autofit, minmax(70px,auto));
+    grid-gap: .5rem;
     align-items: center;
     text-align: center;
     width: 100%;
     margin: 100px auto;
     /* margin: 5rem auto; */
-    padding: 70px 0;
+    padding: 70px 0 0;
     align-items: center;
     justify-content: center;
     text-align:center;
@@ -418,7 +419,7 @@ span{
     color: rgb(0, 113, 0);
     display: flex;
     max-width:100%;
-    margin: 0 0 30px 0;
+    margin: 0 0 10px 0;
     font-size: var(--p-font);
     border-radius: 10px;
 }
