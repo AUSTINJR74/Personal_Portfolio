@@ -743,7 +743,10 @@ span{
 
 @media (max-width: 415px){
     section{
-        padding: 50px 8%;
+        padding: 50px 6%;
+    }
+    .contact .action form input[type="email"], form input[type="text"], form textarea[name="Message"]{
+        width: 320px;
     }
 }
 
